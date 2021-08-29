@@ -1,4 +1,4 @@
-const a = document.querySelector("#a");
+/*const a = document.querySelector("#a");
 const b = document.querySelector("#b");
 const cu = document.querySelector("#cu");
 
@@ -9,4 +9,6 @@ function runf(){
     b_text = b.textContent;
     cu_text = cu.textContent;
     alert(a_text,b_text,cu_text);
-}
+}*/
+
+document.getElementById("pid").innerHTML("a");
