@@ -1,3 +1,6 @@
 main{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(142, 222, 247);
 }
