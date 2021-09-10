@@ -2,5 +2,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 150vh;
     background-color: rgb(142, 222, 247);
 }
