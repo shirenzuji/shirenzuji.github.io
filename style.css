@@ -6,7 +6,7 @@ main{
     background-color: rgb(142, 222, 247);
 }
 .title{
-    width: 220px;
+    width: auto;
     padding: 10px;
     border: 5px solid rgb(65, 214, 152);
     margin: 0;
