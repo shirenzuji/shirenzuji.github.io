@@ -9,5 +9,7 @@ main{
     width: auto;
     padding: 10px;
     border: 5px solid rgb(65, 214, 152);
-    margin: 0;
+    position:absolute;
+	left:75px;
+	top:100px;
 }
