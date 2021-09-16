@@ -11,10 +11,20 @@ main{
     z-index: -1;
 }
 .title{
-    font-size: 60px;
+    font-family: 'STXingkai';
+    font-size: 80px;
     width: auto;
     padding: 10px;
     position: absolute;
-	left: 30px;
+	left: 50px;
 	top: 50px;
+}
+.title_s{
+    font-family: 'STXinwei';
+    font-size: 40px;
+    width: auto;
+    padding: 10px;
+    position: absolute;
+	left: 530px;
+	top: 85px;
 }
