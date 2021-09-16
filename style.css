@@ -2,16 +2,19 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: teal;
     height: 150vh;
-    background-color: rgb(142, 222, 247);
+}
+.picture{
+    background-image: url(head.jpeg);
+    background-repeat: no-repeat;
+    z-index: -1;
 }
 .title{
-    font-size:60px;
+    font-size: 60px;
     width: auto;
     padding: 10px;
-    position:absolute;
-	left:100px;
-	top:125px;
-    background-image: url(title2.jpeg);
-    direction:tb;
+    position: absolute;
+	left: 30px;
+	top: 50px;
 }
