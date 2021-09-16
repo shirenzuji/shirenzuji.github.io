@@ -4,7 +4,6 @@ main{
     align-items: center;
     background-color: teal;
     height: 150vh;
-    z-index: -1;
 }
 .picture{
     background-image: url(head.jpeg);
