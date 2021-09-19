@@ -1,0 +1,59 @@
+.For_ALL{
+    width: 1920px;
+    height: 1080px;
+    background-color: aqua;
+}
+
+.For_TOP{
+    width: 1920px;
+    height: 100px;
+    background-color: aquamarine;
+}
+.For_SRZJ{
+    width: 500px;
+    height: 100px;
+    background-color: cadetblue;
+    float: left;
+}
+.SRZJ{
+    font-family: 'STXinwei';
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.For_SRZJ_S{
+    width: 1420px;
+    height: 100px;
+    background-color: darkolivegreen;
+    float: left;
+}
+.SRZJ_S{
+    font-family: 'STXinwei';
+    font-size: 40px;
+    text-align: end;
+    margin: 0;
+    padding: 0;
+}
+.For_MIDDLE{
+    width: 1920px;
+    height: 950px;
+    background-color: darkorange;
+}
+.For_MAP{
+    width: 900px;
+    height: 950px;
+    background-color: darkslateblue;
+    float: left;
+}
+.For_DETAIL{
+    width: 900px;
+    height: 950px;
+    background-color: firebrick;
+    float: left;
+}
+.For_PIC{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+}
