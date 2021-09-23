@@ -28,3 +28,6 @@ main{
 	left: 530px;
 	top: 85px;
 }
+.input[type=range]{
+    appearance: none;
+}
