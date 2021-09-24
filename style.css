@@ -28,6 +28,6 @@ main{
 	left: 530px;
 	top: 85px;
 }
-.input[type=range]{
-    appearance: none;
+input[type=range] {
+    border-radius: 55px;
 }
