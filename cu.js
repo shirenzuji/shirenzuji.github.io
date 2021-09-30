@@ -1,7 +1,7 @@
 /*const a = document.querySelector("#a");
 const b = document.querySelector("#b");
 const cu = document.querySelector("#cu");
-
+    
 let a_text, b_text, cu_text;
 
 function runf(){
@@ -12,8 +12,3 @@ function runf(){
 }*/
 
 document.getElementById("pid").innerHTML("a");
-// 111
-// 123123123
-// 123123123
-// 123123123
-// 123123123
