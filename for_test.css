@@ -57,3 +57,20 @@
     height: 200px;
     background-color: gray;
 }
+.For_POEM{
+    width: 9000px;
+    height: 950px;
+    background-color: rgb(184, 111, 23);
+    float: left;
+}
+.For_LINK{
+    width: 120px;
+    height: 950px;
+    background-color: bisque;
+    float: left;
+}
+.try{
+    height: 100px;
+    width: 100px;
+    float: left;
+}

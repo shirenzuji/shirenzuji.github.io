@@ -2,11 +2,49 @@
     <head>
         <title>诗人足迹</title>
         <link rel="stylesheet" href="style.css">
+        <!-- <script>
+            let DrawImage=(ImgBox,ImgD,iwidth,iheight)=>{
+                ImgBox.style.overflow="hidden"
+                con
+            }
+        </script> -->
     </head>
-    <body class="picture">
-        <span class="title">诗人足迹</span>
-        <span class="title_s">随着诗人的足迹，探索诗人的故事。。。</span>      
-        <script src="cu.js"></script>
-        
+    <body>
+        <div class="ALL">
+            <div class="HEAD">
+                <div class="TITLE">
+                    <p class="TITLE_TEXT">诗人足迹</p>
+                </div>
+                <div class="SUB_TITLE">
+                    <p class="SUB_TITLE_TEXT">随着诗人的足迹，探索诗人的故事。</p>
+                </div>
+            </div>
+            <div class="BODY">
+                <div class="MAP">
+                    <div class="SHOW_MAP">
+                        <img src="zhongguo1.jpg" width="880" height="880" alt="Zhongguo" usemap="#choose">
+                        <map name="choose">
+                            <area shape="rect" coords="0, 0, 300, 300" href="https://www.baidu.com" alt="TRY1">
+                            <area shape="rect" coords="0, 300, 300, 600" href="https://www.runoob.com" alt="TRY2">
+                        </map>
+                    </div>
+                    <div class="INPUT_YEARS">
+                        <div class="SLIDER">
+                            <input type="range" name="YEARS" id="INPUT_TIME">
+                        </div>
+                        <div class="YEARS_SHOW">
+                            <p class="SHOW_YEARS"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="DETAIL">
+
+                </div>
+            </div>
+            <div class="END">
+
+            </div>
+        </div>  
+        <script src="Public.js"></script>        
     </body>
 </html>

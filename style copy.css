@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    height: 150vh;
+}
+.picture{
+    background-image: url(head.jpeg);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.title{
+    font-family: 'STXingkai';
+    font-size: 80px;
+    width: auto;
+    padding: 10px;
+    position: absolute;
+	left: 50px;
+	top: 50px;
+}
+.title_s{
+    font-family: 'STXinwei';
+    font-size: 40px;
+    width: auto;
+    padding: 10px;
+    position: absolute;
+	left: 530px;
+	top: 85px;
+}

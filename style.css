@@ -1,30 +1,74 @@
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: teal;
-    height: 150vh;
+.ALL{
+    width: 1920px;
+    height: 1080px;
+    background-color: gray;
+    background: url(head.jpeg) no-repeat left top;
 }
-.picture{
-    background-image: url(head.jpeg);
-    background-repeat: no-repeat;
-    z-index: -1;
+/* body{
+    background-color: gray;
+} */
+.HEAD{
+    width: 1920px;
+    height: 130px;
+    /* background-color: plum; */
 }
-.title{
+.TITLE{
+    width: 600px;
+    height: 130px;
+    float: left;
+}
+.TITLE_TEXT{
     font-family: 'STXingkai';
-    font-size: 80px;
-    width: auto;
-    padding: 10px;
-    position: absolute;
-	left: 50px;
-	top: 50px;
+    font-size: 127px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
-.title_s{
+.SUB_TITLE{
+    width: 1320px;
+    height: 130px;
+    float: left;
+}
+.SUB_TITLE_TEXT{
     font-family: 'STXinwei';
-    font-size: 40px;
-    width: auto;
-    padding: 10px;
-    position: absolute;
-	left: 530px;
-	top: 85px;
+    font-size: 67px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+}
+.BODY{
+    width: 1920px;
+    height: 930px;
+    /* background-color: plum; */
+}
+.END{
+    width: 1920px;
+    height: 20px;
+    /* background-color: plum; */
+}
+.MAP{
+    width: 900px;
+    height: 930px;
+}
+.SHOW_MAP{
+    width: 900px;
+    height: 900px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.INPUT_YEARS{
+    width: 900px;
+    height: 30px;
+    padding-left: 10px;
+}
+.SLIDER{
+    width: 700px;
+    height: 30px;
+    float: left;
+}
+.YEARS_SHOW{
+    width: 180px;
+    height: 30px;
+    float: left;
 }
