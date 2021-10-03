@@ -48,8 +48,9 @@
     /* background-color: plum; */
 }
 .MAP{
-    width: 900px;
+    width: 910px;
     height: 930px;
+    float: left;
 }
 .SHOW_MAP{
     width: 900px;
@@ -59,22 +60,22 @@
 }
 .INPUT_YEARS{
     width: 900px;
-    height: 30px;
+    height: 20px;
     padding-left: 10px;
 }
 .SLIDER{
     width: 600px;
-    height: 30px;
+    height: 20px;
     float: left;
 }
 .YEARS_SHOW{
     width: 280px;
-    height: 30px;
+    height: 20px;
     float: left;
 }
 .SHOW_YEARS{
     font-family: 'Serif';
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -110,3 +111,10 @@
     background-color: #ef5777;
     box-shadow: 0 0 0 6px rgba(155, 73, 146, 0.4);
   }
+
+.DETAIL{
+    width: 900px;
+    height: 930px;
+    background-color: aqua;
+    float: left;
+}

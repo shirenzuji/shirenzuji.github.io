@@ -1,6 +1,13 @@
 console.log("Detail.js运行成功！");
 
-const YEARS = [
+var ALLDIV = document.getElementById("DETAIL");
+const Input_for_detail = document.getElementById("INPUT_TIME");
+
+Input_for_detail.addEventListener("input", () => {
+    //ALLDIV.style.filter = "blur";
+});
+
+const YEARS_for_detail = [
     710, 715, 718, 720, 721, 724, 725, 726,
     727, 728, 730, 731, 732, 733, 734, 735,
     736, 737, 738, 739, 740, 741, 742, 743,
@@ -9,7 +16,7 @@ const YEARS = [
     760, 761, 762
 ];
 
-const BACKGROUND = [
+const BACKGROUND_for_detail = [
     "唐睿宗景云元年",
     "唐玄宗开元三年",
     "开元六年",
@@ -55,7 +62,7 @@ const BACKGROUND = [
     "宝应元年"
 ];
 
-const EVENT = [
+const EVENT_for_detail = [
     "10岁。读诸子百家，通诗书。“余小时，大人令诵《子虚赋》，私心慕之”（《秋于敬亭送从侄卷游庐山序》）。",
     "15岁。观奇书，学剑术，好神仙。作《明堂赋》、《拟恨赋》。",
     "18岁。隐居大匡山，往来旁郡。从赵蕤学纵横术。《访戴天山道士不遇》约作于此年。",
