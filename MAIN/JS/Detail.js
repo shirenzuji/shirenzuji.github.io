@@ -1,12 +1,5 @@
 console.log("Detail.js运行成功！");
 
-var ALLDIV = document.getElementById("DETAIL");
-const Input_for_detail = document.getElementById("INPUT_TIME");
-
-Input_for_detail.addEventListener("input", () => {
-    //ALLDIV.style.filter = "blur";
-});
-
 const YEARS_for_detail = [
     710, 715, 718, 720, 721, 724, 725, 726,
     727, 728, 730, 731, 732, 733, 734, 735,
@@ -107,3 +100,17 @@ const EVENT_for_detail = [
     "61岁。暮春，送宗夫人上庐山，有《送内寻庐山女道士李腾空二首》。东下重游皖南。有《宿五松山下荀媪家》等诗，来往于金陵、宣城间，有《饯李副使藏用移军广陵序》、《宣城送刘副使入秦》诗。欲投李光弼军未果，写有《闻李太尉大举秦兵百万出征东南，懦夫请缨，冀申一割之用，半道病还，留别金陵崔侍御》。至当涂依族叔李阳冰。写有《献从叔当涂宰阳冰》诗。",
     "62岁。在当涂养病，有《夏日陪司马武公与群贤宴姑熟亭序》、《天门山铭》，及《姑孰十咏》、《九月龙山饮》、《九月十日即事》诗。冬，病重，“枕上授简”，将诗文交李阳冰编集。十一月，赋《临终歌》而卒。葬今安徽省马鞍山市当涂县龙山。",
 ];
+
+var ALLDIV = document.getElementById("DETAIL");
+const Input_for_detail = document.getElementById("INPUT_TIME");
+
+Input_for_detail.onmousedown = function(){
+    ALLDIV.style.filter = "blur(5px)"
+}
+Input_for_detail.onmouseup = function(){
+    ALLDIV.style.filter = "blur(0px)"
+}
+
+// Input_for_detail.addEventListener("input", () => {
+//     show_years.textContent = "现在是：" + YEARS_for_map[Input_for_map.value] + "年";
+// });

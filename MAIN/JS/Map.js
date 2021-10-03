@@ -11,7 +11,11 @@ const YEARS_for_map = [
 
 const show_years = document.querySelector(".SHOW_YEARS");
 const Input_for_map = document.getElementById("INPUT_TIME");
-show_years.textContent = "WAITING_FOR_INPUT";
+// show_years.textContent = "WAITING_FOR_INPUT";
+
+Input_for_map.value = 0
+show_years.textContent = "现在是：" + YEARS_for_map[Input_for_map.value] + "年";
+
 Input_for_map.addEventListener("input", () => {
     show_years.textContent = "现在是：" + YEARS_for_map[Input_for_map.value] + "年";
 });
