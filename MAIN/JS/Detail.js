@@ -1,6 +1,6 @@
 console.log("Detail.js运行成功！");
 
-const YEARS_for_detail = [
+const YEARS_for_Detail = [
     710, 715, 718, 720, 721, 724, 725, 726,
     727, 728, 730, 731, 732, 733, 734, 735,
     736, 737, 738, 739, 740, 741, 742, 743,
@@ -9,7 +9,7 @@ const YEARS_for_detail = [
     760, 761, 762
 ];
 
-const BACKGROUND_for_detail = [
+const BACKGROUND_for_Detail = [
     "唐睿宗景云元年",
     "唐玄宗开元三年",
     "开元六年",
@@ -55,7 +55,7 @@ const BACKGROUND_for_detail = [
     "宝应元年"
 ];
 
-const EVENT_for_detail = [
+const EVENT_for_Detail = [
     "10岁。读诸子百家，通诗书。“余小时，大人令诵《子虚赋》，私心慕之”（《秋于敬亭送从侄卷游庐山序》）。",
     "15岁。观奇书，学剑术，好神仙。作《明堂赋》、《拟恨赋》。",
     "18岁。隐居大匡山，往来旁郡。从赵蕤学纵横术。《访戴天山道士不遇》约作于此年。",
@@ -102,12 +102,12 @@ const EVENT_for_detail = [
 ];
 
 var ALLDIV = document.getElementById("DETAIL");
-const Input_for_detail = document.getElementById("INPUT_TIME");
+const Input_for_Detail = document.getElementById("INPUT_TIME");
 
-Input_for_detail.onmousedown = function(){
+Input_for_Detail.onmousedown = function(){
     ALLDIV.style.filter = "blur(5px)"
 }
-Input_for_detail.onmouseup = function(){
+Input_for_Detail.onmouseup = function(){
     ALLDIV.style.filter = "blur(0px)"
 }
 
