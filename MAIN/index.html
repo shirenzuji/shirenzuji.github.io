@@ -13,6 +13,7 @@
                 con
             }
         </script> -->
+        <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=TPzhdWAYFgUoGq64evXlrfZtTyge0OWI"></script>
     </head>
     <body>
         <div class="ALL">
@@ -27,11 +28,20 @@
             <div class="BODY">
                 <div class="MAP">
                     <div class="SHOW_MAP">
-                        <img src="./Picture/ZhongGuo_1.jpg" width="880" height="880" alt="Zhongguo" usemap="#choose">
+                        <!-- <img src="./Picture/ZhongGuo_1.jpg" width="880" height="880" alt="Zhongguo" usemap="#choose">
                         <map name="choose">
                             <area shape="rect" coords="0, 0, 300, 300" href="https://www.baidu.com" alt="TRY1">
                             <area shape="rect" coords="0, 300, 300, 600" href="https://www.runoob.com" alt="TRY2">
-                        </map>
+                        </map> -->
+                        <div id="container"></div>
+                        <script type="text/javascript"> 
+                            var map = new BMap.Map("container");
+                            // 创建地图实例  
+                            var point = new BMap.Point(116.404, 39.915);
+                            // 创建点坐标  
+                            map.centerAndZoom(point, 15);
+                            // 初始化地图，设置中心点坐标和地图级别  
+                        </script>
                     </div>
                     <div class="INPUT_YEARS">
                         <div class="SLIDER">

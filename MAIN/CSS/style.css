@@ -118,3 +118,8 @@
     background-color: aqua;
     float: left;
 }
+
+#container{
+    width: 880px;
+    height: 880px;
+}
