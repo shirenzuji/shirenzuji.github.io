@@ -119,7 +119,7 @@
     float: left;
 }
 
-#container{
+.MAP_CONTAINER{
     width: 880px;
     height: 880px;
 }
