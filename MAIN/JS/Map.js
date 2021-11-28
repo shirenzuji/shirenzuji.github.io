@@ -8,12 +8,26 @@ const YEARS_for_Map = [
     752, 753, 754, 755, 756, 757, 758, 759,
     760, 761, 762
 ];
+//[X, Y, RANGE] 0 -> TOTAL
+const DATA_for_Map = [
+    [100, 100, 1], [100, 100, 1], [100, 100, 1], [100, 100, 1],
+    [100, 100, 1], [100, 100, 1], [100, 100, 1], [100, 100, 1],
+    [100, 100, 1], [100, 100, 1], [100, 100, 1], [100, 100, 1],
+    [100, 100, 1], [100, 100, 1], [100, 100, 1], [100, 100, 1],
+    [100, 100, 1], [100, 100, 1], [100, 100, 1], [100, 100, 1],
+    [100, 100, 1], [100, 100, 1], [100, 100, 1], [100, 100, 1],
+    [100, 100, 1], [100, 100, 1], [100, 100, 1], [100, 100, 1],
+    [100, 100, 1], [100, 100, 1], [100, 100, 1], [100, 100, 1],
+    [100, 100, 1], [100, 100, 1], [100, 100, 1], [100, 100, 1],
+    [100, 100, 1], [100, 100, 1], [100, 100, 1], [100, 100, 1],
+    [100, 100, 1], [100, 100, 1], [100, 100, 1]
+];
 
 const show_years = document.querySelector(".SHOW_YEARS");
 const Input_for_Map = document.getElementById("INPUT_TIME");
 // show_years.textContent = "WAITING_FOR_INPUT";
 
-Input_for_Map.value = 0
+Input_for_Map.value = 0;
 show_years.textContent = "现在是：" + YEARS_for_Map[Input_for_Map.value] + "年";
 
 Input_for_Map.addEventListener("input", () => {
@@ -21,8 +35,10 @@ Input_for_Map.addEventListener("input", () => {
 });
 
 var map = new BMap.Map("map");
-    // 创建地图实例  
+    // 创建地图实例
 var point = new BMap.Point(116.404, 39.915);
-    // 创建点坐标  
-map.centerAndZoom(point, 5);
-    // 初始化地图，设置中心点坐标和地图级别  
+    // 创建点坐标
+map.centerAndZoom(point, 15);
+    // 初始化地图，设置中心点坐标和地图级别
+
+var PLACE_POINT = [];
