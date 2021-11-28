@@ -62,7 +62,7 @@ xhr.addEventListener("readystatechange", function() {
   }
 });
 
-xhr.open("POST", "http://open.edukg.cn/opedukg/api/typeAuth/user/login");
+xhr.open("POST", "//open.edukg.cn/opedukg/api/typeAuth/user/login");
 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
 xhr.send(data);
