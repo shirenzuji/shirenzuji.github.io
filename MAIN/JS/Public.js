@@ -55,6 +55,7 @@ var data = "password=shirenzuji2021&phone=18519660660";
 
 var xhr = new XMLHttpRequest();
 xhr.withCredentials = true;
+xhr.timeout = 10000
 
 xhr.addEventListener("readystatechange", function() {
   if(this.readyState === 4) {
